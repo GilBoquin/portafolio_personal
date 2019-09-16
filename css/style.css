@@ -1,0 +1,251 @@
+@import url('https://fonts.googleapis.com/css?family=Fira+Sans:400,500i,800,800i&display=swap');
+
+header{
+	background-color: #002A38;
+	padding: 2px, 0;
+	position: absolute;
+	top: 0;
+	width: 100%;
+	z-index: 1000;
+	font-family: "Fira Sans";
+}
+/*menu principal*/
+#home{
+	background-size: cover;
+	background-position:center;
+	padding: 10% 0;
+	color: #FFFFFF;
+	position: relative;
+	height: 100vh;
+	background-image: url("../img/background brushes.jfif");
+	font-family: "Fira Sans";
+	
+}
+
+#home .container{
+	padding: 100px;
+}
+
+#home h1{
+	font-size: 60px;
+	font-weight: 300;
+}
+
+#home p span{
+	display: block;
+	font-weight: 400;
+}
+
+#home p{
+	font-size: 22;
+}
+
+#home .subtitulo{
+	color: #FFFFFF;
+	font-style: italic;
+}
+
+#home .img-fluid{
+	max-width: 100%;
+	height: auto;
+}
+
+#home img .img-responsive {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+/*servicios*/
+#servicios{
+	text-align: center;
+	padding: 50px 0;
+	background-color: #159CD1;
+	color: #FFFFFF;
+	font-style: italic;
+	font-weight: bold;
+	font-family: "Fira Sans";
+}
+
+.titulos{
+	font-weight: 100;
+	color: #FFFFFF;
+	margin-bottom: 20px;
+	font-size: 35px;
+	text-align: center;
+}
+
+.subtitulos{
+	color: #FFFFFF;
+	font-weight: 20px;
+	font-size: 20px;
+	margin-bottom: 80px;	
+	text-transform: lowercase;
+	font-family: 'Crimson Text', serif;
+	text-align: center;
+}
+
+#servicios h3{
+	color: #FFFFFF;
+}
+
+#servicios i{
+	color: #FFFFFF;
+	font-size: 50px;
+	padding-bottom: 30px;
+}
+
+#servicios p{
+	font-family: "Fira Sans";
+	font-style: normal;
+	font-weight: 300;
+	
+}
+
+#servicios h4{
+	font-family: "Fira Sans";
+	font-style: normal;
+	font-weight: 300;
+	
+}
+
+/*Son los iconos de header*/
+.navbar-nav .fab{
+	background-color: #159CD1;
+	border-radius: 100%;
+	width:40px;
+	height: 40px;
+	line-height: 40px;
+	text-align: center;
+	color: #FFFFFF;
+	font-size: 20px;
+}
+
+.overlay{
+	position: absolute;
+	top: 0;
+	width: 100%;
+	height: 100%;
+	background-color: rgba(0,0,0,0.70);
+	padding: 10% 0;
+	
+}
+
+/*Son las fotos del portafolio*/
+
+#portafolio{
+	padding: 30px 0;
+	font-family: "Fira Sans";
+}
+
+#portafolio h2{
+	color: #FC4C4C;
+	font-style: italic;
+	font-weight: bold;
+}
+
+#portafolio h4{
+	color: #FC4C4C;
+	font-style: italic;
+	font-weight: bold;
+	font-family: "Fira Sans";
+}
+.separador-fila{
+	margin-bottom: 15px;
+} 
+
+.trabajo{
+	position: relative;
+	overflow: hidden;
+}
+
+.trabajo-fondo{
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	background-color: #FC4C4C;
+	opacity: 0;
+	transition: all 0.4s ease-in;
+	z-index: 10;
+}
+
+.trabajo-texto{
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	color: #FFFFFF;
+	text-align: center;
+	opacity: 0;
+	transition: all 0.5s ease-in;
+	z-index: 20;
+}
+
+.trabajo-texto h5{
+	text-transform: uppercase;
+	font-weight: 300;
+	letter-spacing: 1px;
+	font-size: 14px;
+	
+}
+
+.trabajo-texto h6{
+	text-transform: uppercase;
+	font-weight: 600;
+	letter-spacing: 2px;
+	font-size: 14px;
+	
+}
+
+.trabajo:hover .trabajo-fondo,
+.trabajo:hover .trabajo-texto{
+	opacity: 1;
+	transition: all 0.4s ease-in;
+}
+
+.trabajo a{
+	color: #FFFFFF;
+}
+
+.trabajo-frame{
+	position: absolute;
+	top: 0;
+	padding: 5px;
+	width: 100%;
+	height: 100%;
+}
+#contacto{
+	background-image: url("../img/background brushes.jfif");
+	background-size: cover;
+	background-position:center;
+	padding: 30% 0;
+	color: #FFFFFF;
+	position: relative;
+	height: 100vh;
+	font-family: "Fira Sans";
+}
+#contact .overlay{
+	position: relative;
+}
+
+#contacto h1{
+	font-size: 60px;
+}
+
+#contacto p{
+	font-size: 35px;
+	font-style: italic;
+}
+
+#map{
+	width: 100%;
+	height:100%;
+}
+
+footer{
+	background-color: #002A38;
+	color: #FFFFFF;
+	text-align: center;
+	padding: 40px 0;
+}
